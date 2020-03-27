@@ -12,5 +12,5 @@ def date(request):
 
 
 def about(request):
-    return HttpResponse("This page is all about me.")
+    return HttpResponse("This page is all about me.\n I am Azeez Lawal, a fullstack developer")
 
