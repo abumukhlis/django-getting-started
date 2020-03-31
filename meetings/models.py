@@ -2,6 +2,7 @@ from datetime import time
 
 from django.db import models
 
+
 class Room(models.Model):
     name = models.CharField(max_length=50)
     floor = models.IntegerField()
@@ -20,6 +21,5 @@ class Meeting(models.Model):
 
     def __str__(self):
         return f"{self.title} at {self.start_time} on {self.date}"
-
 
 
